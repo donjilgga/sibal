@@ -1,4 +1,13 @@
 
+            
+                @keyframes jaehee {
+                    0% {
+                        left:100px;
+                    }
+                    100% {
+                        left:1000px;
+                    }
+                    }
             #sek_banjuan{
                 position:absolute;
                 left:100px;
@@ -9,19 +18,12 @@
                 color:#fff;
                 animation-name: jaehee;
                 animation-duration:1s;
-                    animation-duration: leaner;
+                animation-duration: leaner;
                 animation-iteration-count:infinite;
-                    animation-direction:alternate;
-                    animation-fill-mode: forwards;
-            }
+                animation-direction:alternate;
+                animation-fill-mode: forwards;
+                }
     
-            @-webkit-keyframes jaehee {
-            0% {
-                left:100px;
-            }
-            100% {
-                left:1000px;
-            }
             body {
                 margin:0px;
             }

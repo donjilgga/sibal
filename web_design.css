@@ -1,0 +1,53 @@
+
+            
+                @keyframes jaehee {
+                    0% {
+                        left:100px;
+                    }
+                    100% {
+                        left:1500px;
+                    }
+                    }
+            #sek_banjuan{
+                position:absolute;
+                left:100px;
+                width:100px;
+                height:50px;
+                margin-left:-50px;
+                background-color:#000;
+                color:#fff;
+                animation-name: jaehee;
+                animation-duration:1s;
+                animation-duration: leaner;
+                animation-iteration-count:infinite;
+                animation-direction:alternate;
+                animation-fill-mode: forwards;
+                }
+    
+            body {
+                margin:0px;
+            }
+            h1 {
+                border-bottom: 5px solid blue;
+                padding : 20px;
+                margin:0px;
+                font-size:45px;
+                text-align: center;
+            }
+            #info {
+                display: grid;
+                grid-template-columns: 300px 1fr;
+            }
+            h2 {
+                margin-top:0px;
+                padding-top:5px;
+            }
+            #menu {
+                border-right: 5px solid blue;
+                width:300px;
+            }
+            #ing {
+                margin-left:20px;
+                margin-top:20px;
+            }
+        

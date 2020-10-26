@@ -1,3 +1,6 @@
+            	body, html { cursor: url(cursor.cur), auto }
+                a { cursor: url(cursor.cur), auto}
+                div { cursor: url(cursor.cur), auto}
 
             
                 @keyframes jaehee {

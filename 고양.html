@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            양선웅 ㅄ
+        </title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel = "stylesheet" href = "web_design.css">
+        <style>
+            
+            @keyframes jaehee {
+                    0% {
+                        left:100px;
+                    }
+                    100% {
+                        left:500px;
+                    }
+                    }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <a href = "jjapaguri.html" id="sek_banjuan"><h3>옹에이이</h3></a>
+        <img id="pop" src="열.jpg" onMouseOver="
+        document.querySelector('#pop').src = '닫.jpg';
+        document.querySelector('#pop').id = 'anpop';
+        play1();
+        "
+        onMouseOut="
+        document.querySelector('#anpop').src = '열.jpg';
+        document.querySelector('#anpop').id = 'pop';
+        play2();
+        ">
+        <audio id="audio1" src="닫기.mp3"></audio>
+        <audio id="audio2" src="열기.mp3"></audio>
+        
+        <script>
+            function play1(){
+                var audio = document.getElementById("audio1");
+                audio.play();
+            }
+            function play2(){
+                var audio = document.getElementById("audio2");
+                audio.play();
+            }
+        </script>
+                <script>
+
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://yang-sun-wong.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </body>
+</html>

@@ -28,6 +28,15 @@
         document.querySelector('#anpop').src = '열.jpg';
         document.querySelector('#anpop').id = 'pop';
         play2();
+        "
+         ontouchstart="
+        document.querySelector('#pop').src = '닫.jpg';
+        document.querySelector('#pop').id = 'anpop';
+        play1();"
+        ontouchend="
+        document.querySelector('#anpop').src = '열.jpg';
+        document.querySelector('#anpop').id = 'pop';
+        play2();
         ">
         <audio id="audio1" src="닫기.mp3"></audio>
         <audio id="audio2" src="열기.mp3"></audio>
